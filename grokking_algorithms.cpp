@@ -2,10 +2,14 @@
 //
 
 #include <iostream>
+#include "1_binary_search.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    std::vector<int> vec{ 1,4,6,8,9,13,54,100 };
+    std::cout << *binary_search(vec, 4, [](int a, int b) {
+        return a < b;
+    });
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
