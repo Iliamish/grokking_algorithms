@@ -29,5 +29,8 @@
     <ClInclude Include="2_quick_sort.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="7_Dijkstra.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
